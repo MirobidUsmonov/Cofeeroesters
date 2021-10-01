@@ -52,7 +52,7 @@ body{
 }
 
 .container {
-    width: 1310px;
+    max-width: 1310px;
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
