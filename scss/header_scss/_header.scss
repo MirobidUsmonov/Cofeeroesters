@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 0;
+}
+
+.nav__list {
+    width: 282px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    text-decoration: none;
+    transition: 0.2s;
+    &:hover {
+        color: #333D4B;
+    }
+}

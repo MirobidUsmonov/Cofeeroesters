@@ -1,0 +1,39 @@
+.links {
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    padding: 47px 85px;
+    background-color: #2C343E;
+    margin-bottom: 88px;
+}
+
+.links__list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -200px;
+}
+
+.links__item {
+    margin: 0 16px;
+}
+
+.links__item-link {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+.links__item-link:hover {
+    color: #FEFCF7;
+}
+
+.links__images {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
